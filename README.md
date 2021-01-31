@@ -14,4 +14,4 @@ times,  many have begun to lose their sense of fashion and what it is truly like
 and obvious solution to this. Consider updating your professional profiles with this new and improved image of yourself 
 to guarantee that your new “dripped out” image stands out from others. 
 
-![Drip](https://github.com/Tanger71/resonance/blob/main/res/drip_small.png)
+![Drip](https://github.com/Tanger71/resonance/blob/main/res/sample.jpg)
