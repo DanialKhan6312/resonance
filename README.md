@@ -1,5 +1,5 @@
 # Dripify
-An app that senses your bad style. 
+An app that checks your style. 
 
 **Sawyer, Scott, Raymond, Kevin**
 
