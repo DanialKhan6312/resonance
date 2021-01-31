@@ -1,7 +1,9 @@
 # Dripify
 An app that senses your bad style. 
 
-#####"Dripify will drip you with the drippiest drip"
+**Sawyer, Scott, Raymond, Kevin**
+
+"Dripify will drip you with the drippiest drip"
 
 ![Drip](res/drip_small.png)
 
