@@ -22,9 +22,9 @@ def get_img_data(f, maxsize=(1200, 850), first=False):
     return ImageTk.PhotoImage(img)
 
 def createDrip():
-    print(path)
+    # print(path)
 
-    print(type(path))
+    # print(type(path))
 
     drip = dripify.drippify(path)
     cv2.imwrite('dripppyyy.jpg', drip)
