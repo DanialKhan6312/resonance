@@ -1,5 +1,7 @@
 import PySimpleGUI as sg
 import os
+
+import cv2
 from PIL import Image, ImageTk
 import io
 import subprocess
@@ -24,10 +26,11 @@ def createDrip():
 
     print(type(path))
 
-    dripify.drippify(path)
+    drip = dripify.drippify(path)
+    cv2.imwrite('dripppyyy.jpg', drip)
 
     newLayout = [
-        [sg.Image(data=get_img_data(path, first=True))],
+        [sg.Image(data=get_img_data('dripppyyy.jpg', first=True))],
         [sg.Submit("DRIPPY!")]
     ]
     newWindow = sg.Window('Dripify', newLayout, size=(1200, 850))
