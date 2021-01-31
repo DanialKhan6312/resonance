@@ -54,8 +54,8 @@ while True:
     # End program if user closes window or
     # presses the OK button
     if event == "Get drip":
-        createDrip()
         window.close()
+        createDrip()
         break
     if event == "Cancel" or event == sg.WIN_CLOSED:
         window.close()
