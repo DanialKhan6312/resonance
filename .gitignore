@@ -1,0 +1,9 @@
+
+# Default ignored files
+/workspace.xml
+/misc.xml
+/inspectionProfiles/profiles_settings.xml
+/resonance.iml
+/modules.xml
+/vcs.xml
+.idea/*
