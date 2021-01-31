@@ -80,11 +80,11 @@ def drippify(path: str):
 
     drip = cv2.imread("C:/Users/sawye/Downloads/drip.png", -1)
     face = cv2.imread(path)
-    cv2.imshow("cropped", drip)
-    cv2.waitKey(0)
-
-    cv2.imshow("cropped", img)
-    cv2.waitKey(0)
+    # cv2.imshow("cropped", drip)
+    # cv2.waitKey(0)
+    #
+    # cv2.imshow("cropped", img)
+    # cv2.waitKey(0)
 
     width, height = drip.shape[:2]
     # width2, height2 = img.shape[:2]
@@ -98,8 +98,8 @@ def drippify(path: str):
 
     drip = overlay_transparent(face, drip, x, y)
 
-    cv2.imshow('drip', drip)
-    cv2.waitKey(0)
+    # cv2.imshow('drip', drip)
+    # cv2.waitKey(0)
     cv2.destroyAllWindows
 
     return drip
