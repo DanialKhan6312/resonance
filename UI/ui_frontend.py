@@ -4,6 +4,8 @@ from PIL import Image, ImageTk
 import io
 import subprocess
 
+import dripify
+
 def get_img_data(f, maxsize=(1200, 850), first=False):
     """Generate image data using PIL
     """
@@ -18,6 +20,12 @@ def get_img_data(f, maxsize=(1200, 850), first=False):
     return ImageTk.PhotoImage(img)
 
 def createDrip():
+    print(path)
+
+    print(type(path))
+
+    dripify.drippify(path)
+
     newLayout = [
         [sg.Image(data=get_img_data(path, first=True))],
         [sg.Submit("DRIPPY!")]
