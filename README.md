@@ -1,7 +1,7 @@
 # Dripify
 An app that checks your style. 
 
-**Sawyer, Scott, Raymond, Kevin**
+**Sawyer Tang, Scott Williamson, Raymond Lin, Kevin Kwan**
 
 "Dripify will drip you with the drippiest drip"
 
